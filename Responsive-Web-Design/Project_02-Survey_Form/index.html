@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Game Survey</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <h1>Game Survey Form</h1>
+  <h4>Thank you for taking the time to help us find what games people love.</h4>
+  
+  <div class="container">
+    <form action="/action">
+        <label for="fname">First name</label>
+        <input class="input-field" type="text" id="fname" name="fname" placeholder="Enter your name" required><br>
+        <label for="lname">Email</label>
+        <input class="input-field" type="text" id="email" name="email" placeholder="Enter your e-mail address" required><br>
+        <label for="lname">Age</label>
+        <input type="number" name="age" id="number" min="10" max="99" class="input-field" placeholder="Enter your Age" required><br>
+        <label for="genre">Choose Your Favorite Video Game Genre:</label>
+
+        <select id="dropdown" name="role" class="input-field" required="">
+            <option disabled="" selected="" value="">Select a genre</option>
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="rpg">RPG</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br>
+        <div>
+            <label for="cars">How often do you play video games</label>
+            <label><input name="user-recommend" value="maybe" type="radio" class="input-radio">Every Day</label>
+            <label><input name="user-recommend" value="maybe" type="radio" class="input-radio">Once a Week</label>
+            <label><input name="user-recommend" value="maybe" type="radio" class="input-radio">Once a Month</label>
+        </div>
+        <br>
+    
+        <div>
+            <label for="cars">Check any of the following games series you have played</label>
+            <label><input name="prefer" value="final-fantasy" type="checkbox" class="input-checkbox">Final Fantasy</label>
+            <label><input name="prefer" value="pokemon" type="checkbox" class="input-checkbox">Pokemon</label>
+            <label><input name="prefer" value="mario" type="checkbox" class="input-checkbox">Mario</label>
+            <label><input name="prefer" value="castelvania" type="checkbox" class="input-checkbox">Castelvania</label>
+            <label><input name="prefer" value="super-smash-brothers" type="checkbox" class="input-checkbox">Super Smash Brothers</label>
+        </div>
+        <br>
+        <div>
+            <label for="genre">Anything you would like to add? Let us know!</label>
+            <textarea class="input-field" name="message" rows="10" cols="30">
+            </textarea>
+        </div>
+        <br>
+    
+        <input class="input-field" type="submit" value="Submit">
+    </form>
+
+  </div>
+</body>
+<footer>
+    <h5>2020 | A.Routsis</h5>
+</footer>
+</html>
