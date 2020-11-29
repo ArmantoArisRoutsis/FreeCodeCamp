@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./Assets/logo.png" alt="freeCodeCamp"/>
+  <img style="width:70%;"src="./Assets/logo.png" alt="freeCodeCamp"/>
 </h1>
 
 ##### The FreeCodeCamp is a Web Development course that focuses on FullStack Web Development. Its curriculum is full of projects that help build a strong portfolio of work on Github to fill a resume.
