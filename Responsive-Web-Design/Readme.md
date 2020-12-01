@@ -1,7 +1,4 @@
-# Responsive Web Design
-
-<h1 align="center">
-  <img src="../Assets/Freecodecamp_Responsive_Design_Certification.png"/>
+<h1 align="center">Responsive Web Design
 </h1>
 
 
