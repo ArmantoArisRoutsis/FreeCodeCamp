@@ -1,6 +1,10 @@
 <h1 align="center">Responsive Web Design
 </h1>
 
+<h1 align="center">
+  <img src="../Assets/Freecodecamp_Responsive_Design_Certification.png"/>
+</h1>
+
 
 
 * #### Project I - [Tribute Page](https://github.com/ArmantoArisRoutsis/FreeCodeCamp/tree/main/Responsive-Web-Design/Project_01-Tribute_Page)
